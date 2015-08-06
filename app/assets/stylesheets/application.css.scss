@@ -1,0 +1,40 @@
+// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#bgimage1{
+  background-image:url('http://hdwallpapersfit.com/wp-content/uploads/2015/02/best-new-york-skyline-hd-wallpapers.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: sans-serif;
+  }
+  #bgimage2{
+    background-image:url('https://farm9.staticflickr.com/8001/7469641132_20d7b82cd3_c.jpg');
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: sans-serif;
+  }
+  #bgimage3{
+     background-image:url('http://www.victoriaharbour.com.au/live-here/~/media/Developments/AU/VH/Images/Residential/Residential_Montage_balcony%20and%20city%20view_1280.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: sans-serif;
+  }
+  #bgimage4{
+     background-image:url('https://s3-us-west-2.amazonaws.com/comiunidadbucket/photobridgetower.jpg');
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: sans-serif;
+  }
+  .container{
+    background-color:black;
+  }
+  

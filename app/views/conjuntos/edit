@@ -1,0 +1,48 @@
+<div class="container">
+  <div class="jumbotron" id="bgimage3">
+  <div class= "text-right "><h3><%= link_to "Actualizar Contraseña", '/sessions/edit' %></h3></div>
+        <h1 style = "color: white">comiunidad</h1>
+      
+        <%= form_for(@conjunto) do |f| %>
+ 
+      
+      <div>
+        <%= f.text_area :info, :placeholder => 'Información General', :size => '100x5' %>
+      </div>
+       <div class="row">
+    <div class="col-md-6">
+      <div class="form-group">
+        <%= f.text_field :nombre_administrador, :placeholder => 'Nombre del Administrador' %>
+      </div>
+      <div class="form-group">
+        <%= f.email_field :email_admin, :placeholder => 'Email Administrador' %>
+      </div>
+      <div class="form-group">
+        <%= f.text_field :tel_admin, :placeholder => 'Telefono de la Administración' %>
+      </div>
+      <div class="form-group">
+        <%= f.text_field :direccion_admin, :placeholder => 'Dirección de la Administración' %>
+      </div>
+    </div>
+      
+    <div class="col-md-6">
+      <div class="form-group">
+        <%= f.text_field :direccion_conjunto, :placeholder => 'Dirección del Conjunto' %>
+      </div>
+      <div class="form-group">
+        <%= f.text_field :tel_conjunto, :placeholder => 'Telefono del Conjunto' %>
+      </div>
+      <div class="form-group">
+        <%= f.text_field :empresa_vigilancia, :placeholder => 'Empresa de Vigilancia' %>
+      </div>
+      <div class="form-group">
+        <%= f.text_field :empresa_servicios, :placeholder => 'Empresa de Servicios Generales' %>
+      </div>
+    </div>
+  </div>
+      <div class="form-group">
+        <%= f.submit "Actualizar Info", :class => "form-btn" %>
+      </div>
+  <% end %>
+  </div>  
+</div>
